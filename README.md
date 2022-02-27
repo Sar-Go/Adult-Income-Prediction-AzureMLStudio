@@ -12,6 +12,7 @@ The project is done in 6 steps:
 The aim of this project is to build an end-to-end Machine Learning (ML here after) project using the Azure Machine Learning Studio Visual interface which is a no-code platform.
 
 ### Dataset discussion:
+[Dataset](https://github.com/Sarthak-Goel/Adult-Income-Prediction-AzureMLStudio/blob/main/Adult%20Census%20Income%20Binary%20Classification%20dataset.csv)
 - The dataset to be used is *Adult Census Dataset*, which is freely available in Dataset section of Azure ML Studio portal.
 This a benchmark dataset, which is also available in UCI Machine Learning 
 - *Problems with the dataset*
@@ -31,3 +32,6 @@ Removing columns, will reduce the cluttering in our dashboard and model.
 
 ### Delivery
 - The model is available as an azure model web service. This exposes an API to perform a GET request for using the interface.
+
+---
+
